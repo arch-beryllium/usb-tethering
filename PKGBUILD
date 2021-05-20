@@ -1,5 +1,5 @@
 pkgname=usb-tethering
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="USB tethering on ConfigFS systems"
 arch=('any')
@@ -36,7 +36,7 @@ package() {
   install -d ${pkgdir}/etc/usb-tethering/
   install -m 644 dhcpd.conf ${pkgdir}/etc/usb-tethering/
 }
-md5sums=('4fcc291a0e2e19065096c728c4e0302f'
+md5sums=('e9dda426fe5ebae9b9f417e73488cbcd'
          'e64ec951b6b6dad6ea4680cab6ae48b5'
          '8d25b1c3f1146635800db77f300b908c'
          'd0e8b97346e8d4aeb106a412e3dd4c91'
